@@ -5,8 +5,11 @@ through a graphical user interface (GUI).
 Features
 
 BankCard Class:   Represents a generic bank card with attributes such as card ID, client name, issuer bank, bank account, and balance amount.
+
 CreditCard Class: Extends BankCard with additional features such as credit limit, CVC number, interest rate, and expiration date.
+
 DebitCard Class:  Extends BankCard with features for managing withdrawals and PIN validation.
+
 BankGUI Class:    Provides a graphical user interface to interact with the bank card system, allowing users to switch between debit and credit card
                   management, and perform actions like adding cards and withdrawals.
 
